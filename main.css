@@ -1,1 +1,38 @@
-main
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#mainContainer {
+  width: 600px;
+  height: 720px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#mainContainerSideBar {
+  width: 100px;
+  height: 720px;
+  padding-right: 3px;
+  padding-left: 3px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hour {
+  height: 29px;
+  border: 1px solid black;
+  width: 90px;
+}
+
+.half {
+  height: 29px;
+  width: 90px;
+  border: 1px solid black;
+}
