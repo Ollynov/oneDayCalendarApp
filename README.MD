@@ -1,1 +1,1 @@
-Simple one day Calendar App
+Simple One Day Calendar App
